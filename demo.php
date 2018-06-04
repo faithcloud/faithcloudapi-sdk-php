@@ -11,7 +11,7 @@ header('Content-type: application/json');
 require_once './src/FaithCloudApi.php';
 
 $config = [
-    'ApiVersion' => 'schoolV2',
+    'ApiVersion' => 'schoolV1',
     'AppId' => 'fc_s_5afa9c8d7b566',  // 您的appId
     'AppSecret' => '6c713cc9c2616fbd6216c5dfaceabc1a'  // 您的appSecret
 ];
