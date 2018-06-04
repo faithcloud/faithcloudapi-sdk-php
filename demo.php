@@ -17,7 +17,7 @@ $config = [
 ];
 
 $app = new FaithCloudApi($config);
-$ret = $app->send('admin/department/getDepartmentList',[
+$ret = $app->send('admin/user/getUserList',[
     'pageIndex' => 1,
     'pageSize' => 10
 ]);
